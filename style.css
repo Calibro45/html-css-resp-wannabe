@@ -89,7 +89,8 @@ img {
     max-width: 420px;
   }
   
-  #lezioni .row {
+  #lezioni .row,
+  #why .row {
     background-color: #f2f2cd;
   }
 
@@ -168,6 +169,10 @@ img {
     max-width: 820px;
   }
 
+  h1 {
+    margin-bottom: 25px;
+  }
+
   #lezioni .row,
   #steps .row,
   #why .row {
@@ -192,6 +197,10 @@ img {
   #why hr {
     border-top: 2px solid #808080;
     margin-bottom: 25px;
+  }
+
+  #why .row {
+    padding: 20px 10px;
   }
 
 
