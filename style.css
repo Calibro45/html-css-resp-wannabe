@@ -84,15 +84,18 @@ img {
     margin: 0;
   }
 
-  .container {
+  .container,
+  #why.container.grey {
     width: 420px;
+    background-color: #f2f2cd;
   }
 
   #lezioni .row,
   #steps .row {
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 10px 5px;
+    margin-bottom: 25px;
   }
 
   h1 {
@@ -100,10 +103,6 @@ img {
   }
 
   /* lezioni */
-
-  #lezioni .row {
-    background-color: #f2f2cd;
-  }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -117,7 +116,7 @@ img {
 
   /* Come funziona */
 
-  .container.grey {
+  #steps.container.grey {
     background-color: transparent;
   }
 
