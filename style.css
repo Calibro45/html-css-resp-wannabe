@@ -86,7 +86,7 @@ img {
 
   .container,
   #why.container.grey {
-    width: 420px;
+    max-width: 420px;
     background-color: #f2f2cd;
   }
 
@@ -149,5 +149,5 @@ img {
     border-top: 2px solid #808080;
     margin-bottom: 25px;
   }
-  
+
 }
