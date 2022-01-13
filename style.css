@@ -88,6 +88,13 @@ img {
     width: 420px;
   }
 
+  #lezioni .row,
+  #steps .row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 5px;
+  }
+
   h1 {
     margin-bottom: 25px;
   }
@@ -95,21 +102,31 @@ img {
   /* lezioni */
 
   #lezioni .row {
-    width: 100%;
-    margin: 0 auto;
     margin-bottom: 100px;
-    padding: 10px 5px;
     background-color: #f2f2cd;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-  float: none;
-  width: 100%;
+    float: none;
+    width: 100%;
   }
 
   #lezioni .row>.left {
     margin-bottom: 25px;
+  }
+
+  /* Come funziona */
+
+  .container.grey {
+    background-color: transparent;
+  }
+
+  #steps .row >.left,
+  #steps .row >.central,
+  #steps .row >.right {
+    width: 100%;
+    float: none;
   }
 
 
