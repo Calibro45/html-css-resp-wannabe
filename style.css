@@ -108,6 +108,10 @@ img {
     margin-top: 0;
     padding: 20px 10px;
   }
+
+  .left, .right, .central {
+    padding: 0 10px;
+  }
   
   /* steps */
 
@@ -118,14 +122,16 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
+    padding: 0 10px;
     margin-top: 0;
+    float: left;
+    width: 33%;
   } 
 
   /* why */
 
   #why hr {
-    border-top: 2px solid #1f1c1c;
-    margin-bottom: 25px;
+    display: none;
   }
 
   #why .row {
@@ -210,11 +216,14 @@ img {
   #why .row>.second,
   #why .row>.third {
     margin-top: 0;
+    float: none;
+    width: 100%;
   }
 
   #why hr {
     border-top: 2px solid #808080;
     margin-bottom: 25px;
+    display: block;
   }
 
 }
